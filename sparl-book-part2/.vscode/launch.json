@@ -2,6 +2,22 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SimpleCSVLoad",
+            "request": "launch",
+            "mainClass": "SimpleCSVLoad",
+            "projectName": "sparl-book-part2_7fe8f32",
+            "vmArgs": "--add-exports java.base/sun.nio.ch=ALL-UNNAMED"
+        },
+        {
+            "type": "java",
+            "name": "ComplexCsvLoad",
+            "request": "launch",
+            "mainClass": "ComplexCsvLoad",
+            "projectName": "sparl-book-part2_7fe8f32",
+            "vmArgs": "--add-exports java.base/sun.nio.ch=ALL-UNNAMED"
+        },
+        {
+            "type": "java",
             "name": "SparkSessionMain",
             "request": "launch",
             "mainClass": "SparkSessionMain",
