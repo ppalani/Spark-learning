@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "SparkSessionMain",
+            "request": "launch",
+            "mainClass": "SparkSessionMain",
+            "projectName": "sparklessonone_21c515e8",
+            "vmArgs": "--add-exports java.base/sun.nio.ch=ALL-UNNAMED"
+        }
+    ]
+}
