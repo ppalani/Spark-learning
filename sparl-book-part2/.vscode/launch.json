@@ -2,6 +2,21 @@
     "configurations": [
         {
             "type": "java",
+            "name": "XMLExample",
+            "request": "launch",
+            "mainClass": "XMLExample",
+            "projectName": "sparl-book-part2_7fe8f32"
+        },
+        {
+            "type": "java",
+            "name": "JsonExample",
+            "request": "launch",
+            "mainClass": "JsonExample",
+            "projectName": "sparl-book-part2_7fe8f32",
+            "vmArgs": "--add-exports java.base/sun.nio.ch=ALL-UNNAMED"
+        },
+        {
+            "type": "java",
             "name": "SchemaExample",
             "request": "launch",
             "mainClass": "SchemaExample",
