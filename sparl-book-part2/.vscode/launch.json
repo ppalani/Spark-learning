@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ParquetExample",
+            "request": "launch",
+            "mainClass": "ParquetExample",
+            "projectName": "sparl-book-part2_7fe8f32"
+        },
+        {
+            "type": "java",
+            "name": "ORCIngestionSample",
+            "request": "launch",
+            "mainClass": "ORCIngestionSample",
+            "projectName": "sparl-book-part2_7fe8f32"
+        },
+        {
+            "type": "java",
+            "name": "AvroLoadSample",
+            "request": "launch",
+            "mainClass": "AvroLoadSample",
+            "projectName": "sparl-book-part2_7fe8f32"
+        },
+        {
+            "type": "java",
+            "name": "TextfileSample",
+            "request": "launch",
+            "mainClass": "TextfileSample",
+            "projectName": "sparl-book-part2_7fe8f32"
+        },
+        {
+            "type": "java",
             "name": "XMLExample",
             "request": "launch",
             "mainClass": "XMLExample",
