@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "OracleDBExample",
+            "request": "launch",
+            "mainClass": "OracleDBExample",
+            "projectName": "sparl-book-part2_7fe8f32"
+        },
+        {
+            "type": "java",
             "name": "ParquetExample",
             "request": "launch",
             "mainClass": "ParquetExample",
