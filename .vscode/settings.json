@@ -211,5 +211,6 @@
     ],
     "java.configuration.runtimes": [
     {}
-    ]
+    ],
+    "java.compile.nullAnalysis.mode": "disabled"
 }
