@@ -2,6 +2,9 @@ package DSA;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
+import java.util.Hashtable;
+
+import org.sparkproject.dmg.pmml.HasTable;
 
 public class TwoNumbers {
     public static void main(String args[]) {
@@ -46,5 +49,23 @@ public class TwoNumbers {
             }
         }
 
+        Hashtable<Integer, Integer> numhash = new Hashtable<Integer, Integer>();
+        System.out.println("method three hashtable  method");
+
+        for (int p = 0; p < numarr.length; p++) {
+
+            if (numhash.containsKey(resnum - numarr[p])) {
+
+                int vall = resnum - numarr[p];
+                System.out.println("the combination of numbers are" + numarr[p] + " " + vall);
+
+            } else {
+                // System.out.println("else block" + numarr[p] );
+
+                numhash.put(numarr[p], 1);
+                // System.out.println(numhash);
+
+            }
+        }
     }
 }
